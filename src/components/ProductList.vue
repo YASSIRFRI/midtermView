@@ -1,9 +1,14 @@
 <template>
     <HomeLayout>
+        <!-- flex container-->
+        <div class="flex justify-between items-center">
       <h1 class="text-blue-600 text-3xl font-bold mb-4">Events
         <i class="fa fa-calendar-alt text-blue-600 mr-2"></i>
       </h1>
-      <router-link to="/products/new" class="auth-button mb-4 inline-block">Add New Event</router-link>
+      <router-link to="/products/new" class="auth-button mb-4 inline-block">Add New Event
+        <i class="fa fa-plus text-white ml-2"></i>
+      </router-link>
+        </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         <div
           v-for="product in products"

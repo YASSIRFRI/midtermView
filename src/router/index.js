@@ -40,21 +40,7 @@ const routes = [
     name: "ProductEdit",
     component: ProductForm,
   },
-  {
-    path: "/categories",
-    name: "CategoryList",
-    component: CategoryList,
-  },
-  {
-    path: "/categories/new",
-    name: "CategoryCreate",
-    component: CategoryForm,
-  },
-  {
-    path: "/categories/:id/edit",
-    name: "CategoryEdit",
-    component: CategoryForm,
-  },
+
   {
     path: "/:pathMatch(.*)*",
     redirect: "/home",
