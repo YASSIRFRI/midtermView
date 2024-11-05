@@ -1,0 +1,9 @@
+[
+    {
+      "origin": ["https://midterm-d1739.web.app"], 
+      "method": ["GET", "POST", "PUT", "DELETE"],
+      "maxAgeSeconds": 3600,
+      "responseHeader": ["Content-Type", "x-goog-meta-*"]
+    }
+  ]
+  
