@@ -52,6 +52,7 @@
   <script>
   import { ref } from "vue";
   import { signUp, signInWithGoogle } from "../firebase";
+  import { router } from "../router";
   
   export default {
     name: "SignupPage",
